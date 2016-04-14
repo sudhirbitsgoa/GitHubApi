@@ -1,0 +1,32 @@
+<header ng-controller='HeaderCtrl' class="header anim-5-all">
+    <div class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" data-animate-hover="fade" ui-sref="home">
+                    <!--img alt="Obaju logo" class="hidden-xs" src="../../assets/images/logo.png">
+                    <img alt="Obaju logo" class="visible-xs" src="../../assets/images/logo-small.png"-->
+                    <span class="sr-only">Git hub - Save Time. Code Smart.</span></a>
+                <div class="navbar-buttons">
+                    <button class="navbar-toggle"
+                            data-target=".navbar-collapse"
+                            data-toggle="collapse"
+                            type="button">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="btn btn-default navbar-toggle" href="basket.html"><i class="icon-shop32"></i></a>
+                </div>
+            </div>
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a ng-if="!isLogin" ng-click="githubAuth()">Login</a>
+                        <a ng-if="isLogin" ng-click="LogOut()">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</header>

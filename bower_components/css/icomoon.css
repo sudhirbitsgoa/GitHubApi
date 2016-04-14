@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?hpyuao');
+    src:    url('../fonts/icomoon.eot?hpyuao#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?hpyuao') format('truetype'),
+        url('../fonts/icomoon.woff?hpyuao') format('woff'),
+        url('../fonts/icomoon.svg?hpyuao#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-close:before {
+    content: "\e931";
+}
+.icon-plus2:before {
+    content: "\e932";
+}
+.icon-minus2:before {
+    content: "\e933";
+}
+.icon-nonveg:before {
+    content: "\e900";
+}
+.icon-veg:before {
+    content: "\e901";
+}
+.icon-time26:before {
+    content: "\e902";
+}
+.icon-ion-android-restaurant:before {
+    content: "\e903";
+}
+.icon-ion-android-search:before {
+    content: "\e904";
+}
+.icon-baker9:before {
+    content: "\e905";
+}
+.icon-bakery37:before {
+    content: "\e906";
+}
+.icon-bakery38:before {
+    content: "\e907";
+}
+.icon-bread28:before {
+    content: "\e908";
+}
+.icon-ion-android-time:before {
+    content: "\e909";
+}
+.icon-dessert28:before {
+    content: "\e90a";
+}
+.icon-dessert68:before {
+    content: "\e90b";
+}
+.icon-ion-clipboard:before {
+    content: "\e90c";
+}
+.icon-fastfood47:before {
+    content: "\e90d";
+}
+.icon-meal11:before {
+    content: "\e90e";
+}
+.icon-pasta7:before {
+    content: "\e90f";
+}
+.icon-sweet213:before {
+    content: "\e910";
+}
+.icon-ion-clock:before {
+    content: "\e911";
+}
+.icon-ion-image:before {
+    content: "\e912";
+}
+.icon-ion-images:before {
+    content: "\e913";
+}
+.icon-ion-minus:before {
+    content: "\e914";
+}
+.icon-ion-more:before {
+    content: "\e915";
+}
+.icon-ion-plus:before {
+    content: "\e916";
+}
+.icon-shop32:before {
+    content: "\e917";
+}
+.icon-clock104:before {
+    content: "\e918";
+}
+.icon-direction304:before {
+    content: "\e919";
+}
+.icon-tool305:before {
+    content: "\e91a";
+}
+.icon-cog:before {
+    content: "\e91b";
+}
+.icon-lock:before {
+    content: "\e91c";
+}
+.icon-align-justify:before {
+    content: "\e91d";
+}
+.icon-map-marker:before {
+    content: "\e91e";
+}
+.icon-plus:before {
+    content: "\e91f";
+}
+.icon-minus:before {
+    content: "\e920";
+}
+.icon-cogs:before {
+    content: "\e921";
+}
+.icon-phone:before {
+    content: "\e922";
+}
+.icon-paperclip:before {
+    content: "\e923";
+}
+.icon-bars:before {
+    content: "\e924";
+}
+.icon-truck:before {
+    content: "\e925";
+}
+.icon-coffee:before {
+    content: "\e926";
+}
+.icon-mobile:before {
+    content: "\e927";
+}
+.icon-question:before {
+    content: "\e928";
+}
+.icon-inr:before {
+    content: "\e929";
+}
+.icon-fax:before {
+    content: "\e92a";
+}
+.icon-spoon:before {
+    content: "\e92b";
+}
+.icon-ion-trash-a:before {
+    content: "\e92c";
+}
+.icon-package48:before {
+    content: "\e92d";
+}
+.icon-running15:before {
+    content: "\e92e";
+}
+.icon-stickman87:before {
+    content: "\e92f";
+}
+.icon-stickman90:before {
+    content: "\e930";
+}
+

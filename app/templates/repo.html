@@ -1,0 +1,49 @@
+<section class="all-product-sidebar-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="{{userDetails.avatar_url}}" class="img-responsive" alt=""/>
+                <img ng-show="isLoading" alt="" class="octospinner" height="64" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-128.gif" width="64">
+                <h3> {{userDetails.email}} </h3>
+            </div>
+            <div class="col-sm-9">
+                <!--Category Items List-->
+                <h3> {{repoItems.name}} </h3>
+                <ul class="products row">
+                    <img ng-show='isLoading' alt="" class="octospinner" height="64" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-128.gif" width="64">
+                    <li class="col-md-4" ng-repeat="catgItem in repoItems">
+                        <div class="product-details">
+                            <div class="product-thumb">
+                                <div ng-if="catgItem.private">
+                                    <span class="veg"> <img src='https://cdn3.iconfinder.com/data/icons/developperss/PNG/Yellow%20Ball.png'> </span>
+                                </div>
+                                <div ng-if="catgItem.private == false">
+                                    <span class="nonveg"> <img src='https://cdn3.iconfinder.com/data/icons/developperss/PNG/Green%20Ball.png'> </span>
+                                </div>
+                                <a ui-sref="shop.cake-details">
+                                    <img src="{{catgItem.owner.avatar_url}}"
+                                    class="img-responsive" alt=""/>
+                                </a>
+                                <div class="">
+                                    <uib-tabset active="active">
+                                    <uib-tab heading="Static title">
+                                    <uib-tab-heading>
+                                    <i class="fa fa-heart"></i>
+                                    </uib-tab-heading>
+                                    <div class="product-info">
+                                        <h3>{{catgItem.name}}</h3>
+                                        {{ catgItem.ssh_url }}
+                                        
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    </uib-tab>
+                                    </uib-tabset>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

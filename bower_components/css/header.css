@@ -1,0 +1,503 @@
+.navbar .navbar-nav > li > a.dropdown-toggle:after, .navbar .dropdown-menu > li > a:before {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased
+}
+
+.navbar-default {
+    margin: 0;
+    background-color: #FFFFFF;
+    height: 100px;
+    border-color: #EBEBEB;
+    transition: height 0.3s ease-in
+}
+
+.navbar > .container {
+    position: relative
+}
+
+.navbar .navbar-brand {
+    padding: 16px 0px;
+    height: auto;
+    font-size: 50px;
+    color: #149890;
+    font-weight: 600;
+    transition: all 0.3s ease-in
+}
+
+.navbar .navbar-brand span {
+    color: #666666;
+    transition: color 0.3s ease-in
+}
+
+.navbar .navbar-brand:hover {
+    color: #666666
+}
+
+.navbar .navbar-brand:hover span {
+    color: #149890
+}
+
+.navbar .navbar-text {
+    color: #999999;
+    font-weight: 300;
+    font-size: 16px
+}
+
+.navbar .navbar-collapse {
+    margin: 0;
+    transition: all 0.3s ease-in
+}
+
+.navbar .navbar-nav > li > a {
+    font-size: 14px;
+    padding: 34px 15px;
+    font-weight: 700;
+    line-height: 34px;
+    color: #777777;
+    text-transform: uppercase
+}
+
+.navbar .navbar-nav > li > a i.fa-caret-down {
+    font-size: 14px;
+    color: #CCCCCC;
+    margin-left: 3px
+}
+
+.navbar .navbar-nav > li > a.dropdown-toggle:after {
+    content: "\f107";
+    font-size: 14px;
+    color: #CCCCCC;
+    margin-left: 6px
+}
+
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+    background-color: transparent;
+    color: #149890
+}
+
+.navbar .navbar-nav > li.dropdown.open > a {
+    background-color: transparent;
+    color: #149890
+}
+
+.dropdown-menu {
+    border: 0;
+    padding: 0;
+    border-radius: 0;
+    min-width: 200px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15)
+}
+
+.navbar .dropdown-menu {
+    margin-top: 25px;
+    transition: margin-top 0.3s ease-in
+}
+
+.dropdown-menu > li > a {
+    color: #777777;
+    padding: 10px 15px;
+    border-bottom: 1px solid #EEEEEE;
+    font-size: 14px
+}
+
+.dropdown-menu > li:last-child > a {
+    border-bottom: 0
+}
+
+.navbar .dropdown-menu > li > a:before {
+    content: "\f0da";
+    color: #CCCCCC;
+    margin-right: 8px;
+    font-size: 14px
+}
+
+.navbar .dropdown-menu > li > a:hover, .navbar .dropdown-menu > li > a:focus {
+    color: #149890;
+    background-color: #F9F9F9
+}
+
+.navbar .dropdown-menu > li > a:hover:before {
+    color: #149890
+}
+
+.navbar .navbar-nav > li.megamenu {
+    position: static
+}
+
+.navbar .megamenu .dropdown-menu {
+    left: 15px;
+    right: 15px;
+    padding: 10px 5px 0
+}
+
+.navbar .megamenu .dropdown-menu li {
+    padding: 0
+}
+
+.navbar .megamenu .dropdown-menu > li > a:before {
+    display: none
+}
+
+.navbar .megamenu .dropdown-menu li ul {
+    padding: 0 10px 10px
+}
+
+.navbar .megamenu .dropdown-menu li ul li {
+    padding: 5px 10px;
+    font-size: 14px
+}
+
+.navbar .megamenu .dropdown-menu li ul li a {
+    color: #777777
+}
+
+.navbar .megamenu .dropdown-menu li ul li a:hover, .navbar .megamenu .dropdown-menu li ul li a:focus {
+    color: #149890
+}
+
+.navbar .megamenu .dropdown-menu li ul li.title {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #555555;
+    border-bottom: 1px solid #EEEEEE;
+    margin-bottom: 5px
+}
+
+.navbar ul li a .label {
+    margin-top: 2px
+}
+
+.navbar .megamenu .dropdown-menu li ul li.title .label {
+    font-size: 14px;
+    margin-top: 4px;
+    font-weight: 600
+}
+
+.navbar .navbar-nav > li.navbar-cart {
+    text-align: center;
+    padding: 0 5px;
+}
+
+.navbar .navbar-nav > li.navbar-cart i {
+    font-size: 20px;
+}
+
+.navbar .navbar-nav > li.navbar-cart > a.dropdown-toggle:after {
+    display: none
+}
+
+.navbar li.navbar-cart .dropdown-menu {
+    min-width: 300px;
+    padding: 15px
+}
+
+.navbar li.navbar-cart .dropdown-menu > li {
+    margin-bottom: 20px
+}
+
+.navbar li.navbar-cart .dropdown-menu > li:last-child {
+    margin-bottom: 0;
+    border-top: 1px solid #EEEEEE;
+    padding-top: 15px
+}
+
+.navbar li.navbar-cart .dropdown-menu .row {
+    margin: 0
+}
+
+.navbar li.navbar-cart .dropdown-menu .row > div {
+    padding: 0
+}
+
+.navbar li.navbar-cart .dropdown-menu > li:last-child .row {
+    margin: 0 -15px
+}
+
+.navbar li.navbar-cart .dropdown-menu > li:last-child .row > div {
+    padding: 0 15px
+}
+
+.navbar li.navbar-cart .dropdown-menu img {
+    padding-right: 10px
+}
+
+.navbar li.navbar-cart .dropdown-menu a.remove {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 14px;
+    color: #999999
+}
+
+.navbar li.navbar-cart .dropdown-menu a.remove:hover {
+    color: #149890
+}
+
+.navbar li.navbar-cart .dropdown-menu h4 {
+    margin: 0px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.navbar li.navbar-cart .dropdown-menu p {
+    margin: 0;
+    font-size: 12px;
+    color: #666666
+}
+
+@media (max-width: 767px) {
+    .navbar {
+        height: 100px
+    }
+
+    .navbar .navbar-brand {
+        padding: 16px 0px;
+        font-size: 36px
+    }
+
+    .navbar .navbar-collapse {
+        border: 0;
+        border-bottom: 2px solid #149890;
+        box-shadow: none;
+        background-color: #FFFFFF;
+        margin: 0 !important
+    }
+
+    .navbar-transparent .navbar-nav > li > a {
+        color: #777777;
+        font-weight: 400
+    }
+
+    .navbar-transparent .navbar-nav > li > a.dropdown-toggle:after {
+        color: #CCCCCC
+    }
+
+    .navbar .navbar-nav > li > a {
+        font-weight: bold;
+        padding: 10px 15px
+    }
+
+    .navbar .dropdown-menu {
+        display: block;
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        box-shadow: none
+    }
+
+    .navbar .open .dropdown-menu > li > a {
+        padding: 10px 15px;
+        line-height: 1.42857143
+    }
+
+    .navbar .megamenu .dropdown-menu {
+        margin-top: 0
+    }
+
+    .navbar .megamenu .dropdown-menu li ul {
+        padding: 0 20px 10px
+    }
+}
+
+.navbar-nav > li.shop {
+    color: #fff !important
+}
+
+.navbar ul.nav > li.shop > a {
+    color: #fff !important;
+    background: #149890 !important;
+    border-radius: 5px !important;
+    border-radius: 0 !important
+}
+
+.navbar ul.nav > li.shop > a:hover {
+    color: #000 !important;
+    background: rgba(255, 0, 0, 0.3)
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background: none !important;
+    color: #149890 !important
+}
+
+.top-cart-title {
+    border-bottom: 1px solid rgba(102, 102, 102, .2);
+    color: #000;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 32px;
+    font-weight: 600
+}
+
+.btn-cart {
+    text-align: center;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    background: #e0e0e0;
+    color: #3d3d3d;
+    border: none;
+    color: #5d5d5d;
+    font-weight: normal
+}
+
+.btn-chekout {
+    border: none;
+    background: #149890;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-weight: 700
+}
+
+.navbar li.navbar-cart .dropdown-menu > li.navbar li.navbar-cart .dropdown-menu > li:after, .navbar li.navbar-cart .dropdown-menu > li:before {
+    content: " ";
+    display: table
+}
+
+.navbar li.navbar-cart .dropdown-menu > li:after {
+    clear: both
+}
+
+.navigation-and-banner {
+    width: 100%;
+    position: relative;
+    margin-bottom: 25px
+}
+
+.navigation-categories-container {
+    padding: 0 !important
+}
+
+.navigation-categories {
+    background: #f2f2f2;
+    text-align: center;
+    transition: all 0.6s ease;
+    width: 100%;
+    padding: 2px
+}
+
+.navigation-categories.transparent-nav {
+    background: rgba(241, 241, 241, 0.8)
+}
+
+.navigation-categories:hover {
+    background: #f1f1f1;
+    text-decoration: none
+}
+
+.navigation-categories-item {
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    padding: 0 15px;
+    text-transform: uppercase
+}
+
+.navigation-categories-item a {
+    color: #000;
+    text-decoration: none
+}
+
+.navigation-categories-item img {
+    margin: auto;
+    transition: all 0.6s ease
+}
+
+.navigation-categories-item a:hover {
+    opacity: 0.75;
+    text-decoration: none
+}
+
+.navigation-categories-item.shrink-nav {
+    line-height: 8px;
+    padding-top: 15px
+}
+
+.navigation-categories-item.shrink-nav img {
+    height: 0px;
+    transition: all 0.6s ease
+}
+
+.navigation-categories-label {
+    margin: 5px 0
+}
+
+.navigation-categories--active {
+    font-weight: 700
+}
+
+.skills-market-icons {
+    text-align: center;
+    padding: 30px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease
+}
+
+.skills-market-icons:nth-child(even) {
+    margin-right: 0px
+}
+
+.skills-market-icons i {
+    font-size: 30px;
+    background: #149890;
+    color: #fff;
+    width: 76px;
+    height: 76px;
+    text-align: center;
+    line-height: 76px;
+    border-radius: 50%;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease
+}
+
+.skills-market-icons:hover i {
+    background: #fff;
+    color: #149890;
+    cursor: pointer
+}
+
+.skills-market-icons:hover h4 {
+    color: #149890;
+    cursor: pointer
+}
+
+.skills-market-icons h4 {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'PT Sans Caption', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease
+}
+
+.skills-market-icons p {
+    font-size: 12px;
+    text-align: left
+}
+
+.navbar .navbar-nav > li.navbar-cart span.badge {
+    position: absolute;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #149890;
+    top: 25px;
+    right: 0;
+}

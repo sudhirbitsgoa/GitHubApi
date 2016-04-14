@@ -1,0 +1,27 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,300,600,700|Noto+Sans:400,700|PT+Sans+Caption:400,700|Lato:400,300,700|Roboto:400,300,500,700|Open+Sans:400,600,700);
+
+@import url('../../bower_components/css/reset.css');
+@import url('../../bower_components/css/font-awesome.css');
+@import url('../../bower_components/css/icomoon.css');
+@import url('../../bower_components/css/bootstrap.min.css');
+@import url('../../bower_components/css/bootstrap-select.css');
+@import url('../../bower_components/css/animate.css');
+@import url('../../bower_components/css/normalize.css');
+@import url('../../bower_components/css/default.css');
+@import url('../../bower_components/css/header.css');
+@import url('../../bower_components/css/product.css');
+@import url('../../bower_components/css/responsive.css');
+
+.carousel{
+    background: rgba(137, 194, 251, 0.01);
+}
+.carousel .item img{
+    margin: 0 auto /* Align slide image horizontally center */
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+
+
+ 
