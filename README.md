@@ -1,4 +1,4 @@
-https://codeship.com/projects/GitHubApi/status?branch=master
+<img src='https://codeship.com/projects/GitHubApi/status?branch=master'>
 # Instructions #
 
 Includes how to run the app, setting up the developer environment and contribution guide lines.
