@@ -6,6 +6,7 @@ Includes how to run the app, setting up the developer environment and contributi
 ### How to run the app? ###
 * ensure nodejs is installed.
 * node server.js
+* replace clientId and client secret.
 * point to http://localhost:3000
 * This application will show profile details of login user.
 * shows all his repos private and public.
